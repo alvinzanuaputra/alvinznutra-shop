@@ -105,14 +105,14 @@ const Checkout = () => {
         </div>
         <div className="flex items-center gap-2">
           <button
-            className="ml-2 rounded bg-blue-400 py-2 px-2 text-sm font-medium transition hover:scale-105"
+            className="ml-2 rounded bg-blue-400 py-2 px-2 text-[12px] font-medium transition hover:scale-105"
             onClick={checkout}
           >
             Checkout
           </button>
           <p className="text-black"></p>
           <button
-            className="rounded bg-blue-400 py-2 px-2  text-sm font-medium transition hover:scale-105"
+            className="rounded bg-blue-400 py-2 px-2 text-[12px] font-medium transition hover:scale-105"
             onClick={generatePaymentLink}
           >
             Generate Link
