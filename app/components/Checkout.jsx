@@ -93,7 +93,7 @@ const Checkout = () => {
             type="number"
             id="quantity"
             value={quantity}
-            className="rounded-xl border border-black h-6 w-14 pl-3 text-black text-center"
+            className="rounded-md border border-black h-6 w-12 text-black text-center"
             onChange={handleQuantityChange}
           />
           <button
