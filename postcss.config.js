@@ -3,4 +3,7 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  resolve: {
+    preferRelative: true,
+  },
 }
